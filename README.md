@@ -1,9 +1,11 @@
-# Expressive_Gesture
+# Expressive_Gesture 
 🔥(ICME 2024) ExpGest: Expressive Speaker Generation Using Diffusion Model and Hybrid Audio-Text Guidance
 
 This is the official repository of the ExpGest.
 
 ![image](https://github.com/cyk990422/ExpGesture/blob/main/9.png)
+ExpGest is a method that accepts audio, phrases, and motion description text as inputs, and based on a diffusion model, it generates highly expressive motion speakers.
+
 
 
 # News :triangular_flag_on_post:
