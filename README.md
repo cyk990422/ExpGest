@@ -21,8 +21,9 @@ conda install -n ExpGest pytorch==1.10.0 torchvision==0.11.1 cudatoolkit=10.2 -c
 pip install -r requirements.txt
 ```
 
-
-
+### Pre-trained model and data
+- Register and download [MANO](https://mano.is.tue.mpg.de/) model. Put `MANO_LEFT.pkl` and `MANO_RIGHT.pkl` in `mano/`
+- Download pre-trained weights from [here](https://drive.google.com/file/d/1aCeKMVgIPqYjafMyUJsYzc0h6qeuveG9/view?usp=share_link) (update on 3.28) and put it in `checkpoints/` 
 
 
 
