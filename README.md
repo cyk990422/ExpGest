@@ -37,6 +37,7 @@ pip install -r requirements.txt
 ## Demo 🎉
 
 ```
+# More detailed controls such as texts and phrases, please set them in the configuration file.
 # Run audio-control demo:
 python sample_demo.py  --audiowavlm_path '../1_wayne_0_79_79.wav' --max_len 320 --config ../ExpGest_config_audio_only.yml
 
