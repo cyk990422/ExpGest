@@ -13,6 +13,14 @@ This is the official repository of the ExpGest.
 - [2024/03/08] **ExpGest got accepted by ICME 2024!** 🎉
 ## Requirements
 
+### Conda environments
+```
+conda create -n ExpGest python==3.8.8  
+conda activate ExpGest 
+conda install -n ExpGest pytorch==1.10.0 torchvision==0.11.1 cudatoolkit=10.2 -c pytorch
+pip install -r requirements.txt
+```
+
 
 
 
