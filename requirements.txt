@@ -41,5 +41,5 @@ regex
 blobfile
 pandas
 h5py
-cd ../CLIP/
+cd ./CLIP/
 python setup.py install
