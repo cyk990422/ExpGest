@@ -25,9 +25,24 @@ pip install -r requirements.txt
 - Download [CLIP]([https://mano.is.tue.mpg.de/](https://drive.google.com/drive/folders/1CN9J2T1tN-F2R5qfHjOfMkGXP00oka6E?usp=drive_link)) model. Put the folder in the root.
 - Download pre-trained weights from [here]([https://drive.google.com/file/d/1aCeKMVgIPqYjafMyUJsYzc0h6qeuveG9/view?usp=share_link](https://drive.google.com/drive/folders/1GNGsOKTJf6GSrp9OENi0AmA2UkrwLx7u?usp=drive_link)) (only audio-control) and put it in `./main/mydiffusion_zeggs`
 - Download pre-trained weights from [here]([https://drive.google.com/file/d/1aCeKMVgIPqYjafMyUJsYzc0h6qeuveG9/view?usp=share_link](https://drive.google.com/drive/folders/175TyMLMjzXz5vkCHOmvB9v7YxXcs40Te?usp=drive_link)) (action-audio-control) and put it in `./main/mydiffusion_zeggs`
-- Download pre-trained weights from [here]([https://drive.google.com/file/d/1aCeKMVgIPqYjafMyUJsYzc0h6qeuveG9/view?usp=share_link](https://drive.google.com/drive/folders/1_l3LMxYZvyWGjn9D9qQVdbPkmClDfI5K?usp=drive_link)) (text-audio-control) and put it in `./main/mydiffusion_zeggs` 
+- Download pre-trained weights from [here]([https://drive.google.com/file/d/1aCeKMVgIPqYjafMyUJsYzc0h6qeuveG9/view?usp=share_link](https://drive.google.com/drive/folders/1_l3LMxYZvyWGjn9D9qQVdbPkmClDfI5K?usp=drive_link)) (text-audio-control) and put it in `./main/mydiffusion_zeggs`
+- Download WavLM weights from [here]([[https://drive.google.com/file/d/1aCeKMVgIPqYjafMyUJsYzc0h6qeuveG9/view?usp=share_link](https://drive.google.com/drive/folders/1_l3LMxYZvyWGjn9D9qQVdbPkmClDfI5K?usp=drive_link)](https://drive.google.com/drive/folders/1du41ziM0utAMjCtn-YPM8ZYOI6YplHrq?usp=sharing)) and put it in `./main/mydiffusion_zeggs` 
 
+## Demo
 
+```
+# Run a real-time demo:
+python -m acr.main --demo_mode webcam -t
+
+# Run on a single image:
+python -m acr.main --demo_mode image --inputs <PATH_TO_IMAGE>
+
+# Run on a folder of images:
+python -m acr.main --demo_mode folder -t --inputs <PATH_TO_FOLDER> 
+
+# Run on a video:
+python -m acr.main --demo_mode video -t --inputs <PATH_TO_VIDEO> 
+```
 
 
 
