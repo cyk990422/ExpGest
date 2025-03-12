@@ -6,8 +6,35 @@
 
 This is the official repository of the ExpGest.
 
-![image](https://github.com/cyk990422/ExpGesture/blob/main/9.png)
 # Through the mixed control of text and audio, [it can manage] the speaker who is in a locomotion state.
+![image](https://github.com/cyk990422/ExpGesture/blob/main/9.png)
+
+
+# News :triangular_flag_on_post:
+
+- [2025/03/13] **Code release!** ⭐
+- [2024/10/12] **ExpGest is on [arXiv]([https://arxiv.org/abs/2303.05938](https://arxiv.org/abs/2410.09396)) now.**
+- [2024/03/08] **ExpGest got accepted by ICME 2024!** 🎉
+## Requirements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # For Beats datasets
 Note: All FGD evaluation models are trained in a way similar to the trimodal model, using linear velocity representation as input. Among them, "body" refers to the evaluation using only all the torso joints from the upper body above the spine 3 to the left and right wrists in SMPLX.
