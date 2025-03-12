@@ -4,6 +4,7 @@
 This is the official repository of the ExpGest.
 
 ![image](https://github.com/cyk990422/ExpGesture/blob/main/9.png)
+
 ExpGest is a method that accepts audio, phrases, and motion description text as inputs, and based on a diffusion model, it generates highly expressive motion speakers.
 
 
@@ -32,9 +33,10 @@ pip install -r requirements.txt
 
 ## Demo
 
+# audio_only mode
 ```
-# Run a real-time demo:
-python -m acr.main --demo_mode webcam -t
+# Run audio-control demo:
+python sample_demo.py  --audiowavlm_path '../1_wayne_0_79_79.wav' --max_len 320
 
 # Run on a single image:
 python -m acr.main --demo_mode image --inputs <PATH_TO_IMAGE>
