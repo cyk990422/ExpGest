@@ -36,16 +36,13 @@ pip install -r requirements.txt
 # audio_only mode
 ```
 # Run audio-control demo:
-python sample_demo.py  --audiowavlm_path '../1_wayne_0_79_79.wav' --max_len 320
+python sample_demo.py  --audiowavlm_path '../1_wayne_0_79_79.wav' --max_len 320 --config ../ExpGest_config_audio_only.yml
 
-# Run on a single image:
-python -m acr.main --demo_mode image --inputs <PATH_TO_IMAGE>
+# Run hybrid control demo:
+python sample_demo.py  --audiowavlm_path '../1_wayne_0_79_79.wav' --max_len 320 --config ../ExpGest_config_hybrid.yml
 
-# Run on a folder of images:
-python -m acr.main --demo_mode folder -t --inputs <PATH_TO_FOLDER> 
-
-# Run on a video:
-python -m acr.main --demo_mode video -t --inputs <PATH_TO_VIDEO> 
+# Run demo with emotion guided:
+python sample_demo.py  --audiowavlm_path '../1_wayne_0_79_79.wav' --max_len 320 --config ../ExpGest_config_hybrid_w_emo.yml
 ```
 
 
