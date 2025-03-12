@@ -9,19 +9,19 @@ save_per_epochs: 25     # 20 -> 1
 log_interval: 50
 weight_decay: 0.0
 lr_anneal_steps: 0
-#启动是否只生成上半身手势
+
 upper: False
 
 audio_feat: "wavlm"     # wav encoder; mfcc; wavlm
 
-# 选择生成模式，audio_only为只输入audio
+
 mode: 'audio_pharse'      #(audio_only, audio_pharse, audio_text)
-# audio_pharse模式下的短语，参考文件中的data_text.csv文件
-pharse: ['Kick,Forwards Walking'] # 该模式下默认为一个音频切片
-# audio_text模式下的运动描述，包含run walks sit jump等动作，‘xxx’表示对应一个音频切片的动作，建议三段text以下，过长的text会生成较差的结果
+
+pharse: ['Kick,Forwards Walking']
+
 locomotion_text: ['a person walks back and forth','a person sits down for a long time',''] 
 
-# 噪声情感分类器引导，0表示不使用引导，1表示使用引导，当设置为1后，请设置正确的emotion
+
 use_emo_classifier: 1
 emotion: 'netural'             #(netural, happiness, anger, sadness, contempt, surprise, fear, disgust)
 
