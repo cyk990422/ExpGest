@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ```
 
 ### Pre-trained model and data
-- Download [CLIP]([https://mano.is.tue.mpg.de/](https://drive.google.com/drive/folders/1CN9J2T1tN-F2R5qfHjOfMkGXP00oka6E?usp=drive_link)) model. Put the folder in the root.
+- Download [CLIP]([[https://mano.is.tue.mpg.de/](https://drive.google.com/drive/folders/1CN9J2T1tN-F2R5qfHjOfMkGXP00oka6E?usp=drive_link)](https://drive.google.com/drive/folders/1CN9J2T1tN-F2R5qfHjOfMkGXP00oka6E?usp=drive_link)) model. Put the folder in the root.
 - Download pre-trained weights from [here](https://drive.google.com/file/d/1aCeKMVgIPqYjafMyUJsYzc0h6qeuveG9/view?usp=share_link) (only audio-control) and put it in `./main/mydiffusion_zeggs`
 - Download pre-trained weights from [here]([https://drive.google.com/file/d/1aCeKMVgIPqYjafMyUJsYzc0h6qeuveG9/view?usp=share_link](https://drive.google.com/drive/folders/175TyMLMjzXz5vkCHOmvB9v7YxXcs40Te?usp=drive_link) (action-audio-control) and put it in `./main/mydiffusion_zeggs`
 - Download pre-trained weights from [here]([https://drive.google.com/file/d/1aCeKMVgIPqYjafMyUJsYzc0h6qeuveG9/view?usp=share_link](https://drive.google.com/drive/folders/1_l3LMxYZvyWGjn9D9qQVdbPkmClDfI5K?usp=drive_link) (text-audio-control) and put it in `./main/mydiffusion_zeggs`
