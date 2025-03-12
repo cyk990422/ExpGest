@@ -9,7 +9,7 @@ This is the official repository of the ExpGest.
 # News :triangular_flag_on_post:
 
 - [2025/03/13] **Code release!** ⭐
-- [2024/10/12] **ExpGest is on [arXiv]([https://arxiv.org/abs/2303.05938](https://arxiv.org/abs/2410.09396)) now.**
+- [2024/10/12] **ExpGest is on [arXiv](https://arxiv.org/abs/2410.09396) now.**
 - [2024/03/08] **ExpGest got accepted by ICME 2024!** 🎉
 ## Requirements
 
