@@ -47,7 +47,7 @@ python sample_demo.py  --audiowavlm_path '../1_wayne_0_79_79.wav' --max_len 320 
 python sample_demo.py  --audiowavlm_path '../1_wayne_0_79_79.wav' --max_len 320 --config ../ExpGest_config_hybrid_w_emo.yml
 ```
 
-
+## Training code coming soon !
 
 
 
