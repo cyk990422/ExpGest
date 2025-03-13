@@ -22,7 +22,7 @@ ExpGest is a method that accepts audio, phrases, and motion description text as 
 
 ### Conda environments
 ```
-conda create -n ExpGest python==3.8.8  
+conda create -n ExpGest python=3.7
 conda activate ExpGest 
 conda install -n ExpGest pytorch==1.10.0 torchvision==0.11.1 cudatoolkit=10.2 -c pytorch
 pip install -r requirements.txt
