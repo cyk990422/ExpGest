@@ -1,6 +1,8 @@
 # Expressive_Gesture 
 🔥(ICME 2024) ExpGest: Expressive Speaker Generation Using Diffusion Model and Hybrid Audio-Text Guidance
 
+**[Paper](https://arxiv.org/abs/2410.09396)**
+
 > *IEEE International Conference on Multimedia and Expo (ICME), 2024*
 
 This is the official repository of the ExpGest.
