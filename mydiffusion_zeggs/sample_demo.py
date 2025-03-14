@@ -425,8 +425,8 @@ def inference(args, wavlm_model, audio, sample_fn, model, n_frames=0, smoothing=
 
     # 语义对齐模型
     semges=SemGes_Dis()
-    #checkpoint=torch.load("./audio_only_model/joint_sem_ges.bin")
-    checkpoint=torch.load("/apdcephfs/share_1290939/shaolihuang/ykcheng/DiffCoSG/DiffuseStyleGesture/main/mydiffusion_zeggs/output/train_beat_vae_sememb/vae_checkpoint_1200.bin")
+    checkpoint=torch.load("./audio_only_model/joint_sem_ges.bin")
+    # checkpoint=torch.load("/apdcephfs/share_1290939/shaolihuang/ykcheng/DiffCoSG/DiffuseStyleGesture/main/mydiffusion_zeggs/output/train_beat_vae_sememb/vae_checkpoint_1200.bin")
     #checkpoint=torch.load("/apdcephfs/share_1290939/shaolihuang/ykcheng/DiffCoSG/new3/DiffuseStyleGesture/main/mydiffusion_zeggs/mydiffusion_zeggs/output/train_beat_semges_joint/vae_checkpoint_600.bin")
     semges.load_state_dict(checkpoint['state_dict'], strict=False)
     semges.eval()
