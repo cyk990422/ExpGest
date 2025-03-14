@@ -19,7 +19,7 @@ from cn_clip.clip import load_from_name, available_models
 
 #语义联合
 class TextEncoder(nn.Module):
-    def __init__(self, pretrained_model_name="/apdcephfs/share_1290939/shaolihuang/ykcheng/DiffCoSG/DiffuseStyleGesture/main/mydiffusion_zeggs/hub/models--bert-base-uncased/snapshots/1dbc166cf8765166998eff31ade2eb64c8a40076", output_dim=256):
+    def __init__(self, pretrained_model_name="../mydiffusion_zeggs/1dbc166cf8765166998eff31ade2eb64c8a40076", output_dim=256):
         super(TextEncoder, self).__init__()
         self.tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name)
         self.bert = AutoModel.from_pretrained(pretrained_model_name)
