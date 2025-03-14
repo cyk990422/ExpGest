@@ -1,5 +1,4 @@
-# Expressive_Gesture 
-🔥(ICME 2024) ExpGest: Expressive Speaker Generation Using Diffusion Model and Hybrid Audio-Text Guidance
+# 🔥(ICME 2024) ExpGest: Expressive Speaker Generation Using Diffusion Model and Hybrid Audio-Text Guidance
 
 **[Paper](https://arxiv.org/abs/2410.09396)**
 
@@ -67,7 +66,7 @@ python sample_demo.py  --audiowavlm_path '../1_wayne_0_79_79.wav' --max_len 320 
 ```
 
 ## Acknowledgement
-The pytorch implementation of MANO is based on [DiffuseStyleGesture](https://github.com/YoungSeng/DiffuseStyleGesture). We use some parts of the great code from [FreeTalker](https://github.com/YoungSeng/FreeTalker) and [MLD](https://github.com/ChenFengYe/motion-latent-diffusion). We thank all the authors for their impressive works!
+The pytorch implementation of ExpGest is based on [DiffuseStyleGesture](https://github.com/YoungSeng/DiffuseStyleGesture). We use some parts of the great code from [FreeTalker](https://github.com/YoungSeng/FreeTalker) and [MLD](https://github.com/ChenFengYe/motion-latent-diffusion). We thank all the authors for their impressive works!!
 
 ## Contact
 For technical questions, please contact cyk990422@gmail.com
