@@ -1,5 +1,5 @@
 import sys
-[sys.path.append(i) for i in ['.', '..', '../process', '../model', '../../ubisoft-laforge-ZeroEGGS-main', '../../ubisoft-laforge-ZeroEGGS-main/ZEGGS']]
+[sys.path.append(i) for i in ['.', '..', '../process', '../model', '../ubisoft-laforge-ZeroEGGS-main', '../ubisoft-laforge-ZeroEGGS-main/ZEGGS']]
 from model.mdm import MDM
 from utils.model_util import create_gaussian_diffusion, load_model_wo_clip
 import subprocess
