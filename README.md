@@ -45,6 +45,8 @@ pip install -r requirements.txt
 
 ## Run 
 
+Users can modify the configuration file according to their own needs to achieve the desired results. Instructions for modification are provided as comments in the configuration file.
+
 ```
 # More detailed controls such as texts and phrases, please set them in the configuration file.
 # Run audio-control demo:
