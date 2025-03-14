@@ -20,7 +20,12 @@ ExpGest is a method that accepts audio, phrases, and motion description text as 
 - [2025/03/13] **Code release!** ⭐
 - [2024/10/12] **ExpGest is on [arXiv](https://arxiv.org/abs/2410.09396) now.**
 - [2024/03/08] **ExpGest got accepted by ICME 2024!** 🎉
-## Requirements
+
+## To-Do list 📝
+- [x] Inference code
+- [ ] Training code
+      
+## Requirements 🎉
 
 ### Conda environments
 ```
@@ -37,7 +42,8 @@ pip install -r requirements.txt
 - Download pre-trained weights from [here](https://drive.google.com/drive/folders/1_l3LMxYZvyWGjn9D9qQVdbPkmClDfI5K?usp=drive_link) (text-audio-control) and put it in `./mydiffusion_zeggs`
 - Download WavLM weights from [here](https://drive.google.com/drive/folders/1du41ziM0utAMjCtn-YPM8ZYOI6YplHrq?usp=drive_link) and put it in `./mydiffusion_zeggs` 
 
-## Demo 🎉
+
+## Run 
 
 ```
 # More detailed controls such as texts and phrases, please set them in the configuration file.
@@ -51,7 +57,7 @@ python sample_demo.py  --audiowavlm_path '../1_wayne_0_79_79.wav' --max_len 320 
 python sample_demo.py  --audiowavlm_path '../1_wayne_0_79_79.wav' --max_len 320 --config ../ExpGest_config_hybrid_w_emo.yml
 ```
 
-## Training code coming soon !
+
 
 
 
