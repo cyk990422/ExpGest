@@ -8,7 +8,7 @@
 
 This is the official repository of the ExpGest.
 
-![](https://github.com/user-attachments/assets/6f722731-5acf-45c2-aafd-b2f6f76b2058)
+![](https://github.com/ExpGest/assets/6f722731-5acf-45c2-aafd-b2f6f76b2058)
 
 
 ExpGest is a method that accepts audio, phrases, and motion description text as inputs, and based on a diffusion model, it generates highly expressive motion speakers.
